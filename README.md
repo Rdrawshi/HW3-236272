@@ -1,16 +1,14 @@
 # hello_me
+Dry questions:
+1.The class that used to implement the controller pattern in this library is SnappingSheetController,
+which allow the developer to control the sheet and get current snap position.
+snappingSheetController.currentPosition;
+snappingSheetController.currentSnappingPosition; 
+snappingSheetController.currentlySnapping;
 
-A new Flutter project.
+2.snappigPositions parameter controls this behavior - To change the snap positions for the sheet, 
+change the snappingPositions parameter
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3.Inkwell include ripple effect tap – it produces a Material Design ripple effect when you tap or 
+long tap the widget below it While GestureDetector doesn't include.
+GestureDetector provides more controls like dragging etc.
